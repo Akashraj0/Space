@@ -15,7 +15,7 @@ export const Planet = () => {
   useEffect(() => {
     console.log(name);
     const fetch = async () => {
-      const result = await axios.post(`http://127.0.0.1:5000/planet/${name}`);
+      const result = await axios.post(`http://127.0.0.1:10000/planet/${name}`);
       setData(result?.data[0]);
       console.log(data);
     };

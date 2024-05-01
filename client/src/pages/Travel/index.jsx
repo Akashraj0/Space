@@ -34,7 +34,7 @@ const Travel = () => {
       try {
         console.log(values);
         const response = await axios.post(
-          "http://127.0.0.1:5000/booking",
+          "http://127.0.0.1:10000/booking",
           values
         );
         if (response.data.error) {
