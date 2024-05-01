@@ -1,0 +1,44 @@
+.Discover {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  h1 {
+    padding: 20px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .Discover--Box {
+    margin-top: 1rem;
+    width: 90%;
+
+    .Discover--Planet {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      padding: 2rem;
+      margin-left: 2rem;
+      cursor: pointer !important;
+
+      h2 {
+        margin: 2rem auto;
+        font-size: 20px;
+      }
+
+      .Discover--Planet img {
+        border-radius: 50%;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        transition: transform 0.5s ease; /* Add transition for smooth animation */
+      }
+
+      /* Apply hover effect directly on the image */
+      .Discover--Planet img:hover {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

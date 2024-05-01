@@ -1,0 +1,118 @@
+.footer {
+  padding: 20px;
+  align-items: center;
+  color: #000;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  .contact {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+    h1 {
+      font-family: "Questrial", sans-serif;
+      padding: 20px;
+      font-size: 80px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .contact-form {
+    width: 70%;
+    display: block;
+    margin: auto;
+    form {
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          width: 100%;
+          margin-bottom: 10px;
+
+          .error {
+            color: red;
+          }
+
+          &.half {
+            background-color: transparent;
+            width: 50%;
+            float: left;
+            padding-right: 10px;
+          }
+
+          input,
+          textarea {
+            background-color: transparent;
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+
+          textarea {
+            height: 100px;
+          }
+        }
+      }
+    }
+
+    .flat-button {
+      background-color: black;
+      border: 2px solid #000;
+      color: white;
+      padding: 10px 20px;
+      margin-bottom: 70px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #7d7676;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0px;
+    .contact {
+      h1 {
+        padding: 10px;
+        font-size: 35px;
+        margin: 20px;
+      }
+    }
+    .contact-form {
+      width: 70%;
+      display: block;
+      margin: auto;
+      form {
+        ul {
+          li {
+            input,
+            textarea {
+              background-color: transparent;
+              margin-left: 9px;
+              width: 93%;
+              padding: 4px;
+              font-size: 16px;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+
+      .flat-button {
+        padding: 6px 20px;
+        font-size: 14px;
+      }
+    }
+  }
+}

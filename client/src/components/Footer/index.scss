@@ -1,0 +1,47 @@
+.Layout--Box3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: url(../../assets/footer.svg) #081223 no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center; /* Center the content horizontally */
+}
+.Layout--Box3 h1 {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.Contact--Box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: left;
+}
+.Contact--Box img {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Contact--hyper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Contact--Box a {
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.footer-comment {
+  text-align: left;
+  padding: 0.5rem;
+}

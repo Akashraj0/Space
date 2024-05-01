@@ -1,0 +1,40 @@
+.home {
+  margin-top: 165px;
+  margin-bottom: 160px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  .home--content {
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .home--btn {
+      width: 40%;
+      margin: 40px;
+      button {
+        padding: 10px;
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+        margin: 10px;
+      }
+    }
+
+    .btn :hover {
+      color: rgb(148, 148, 144);
+    }
+  }
+}
