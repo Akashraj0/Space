@@ -27,7 +27,7 @@ function PlanetDetails({ des, ved }) {
   return (
     <div style={planetDetailsStyle}>
       <video width="750" height="500" controls>
-        <source src={`/assets/videos/${ved}`} type="video/mp4" />
+        <source src={`/src/assets/videos/${ved}`} type="video/mp4" />
       </video>
       <p style={planetDescriptionStyle}>{des}</p>
     </div>
