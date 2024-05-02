@@ -34,7 +34,7 @@ const Travel = () => {
       try {
         console.log(values);
         const response = await axios.post(
-          "http://127.0.0.1:10000/booking",
+          "https://space-t99y.onrender.com/booking",
           values
         );
         if (response.data.error) {
