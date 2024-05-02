@@ -16,7 +16,7 @@ export const Planet = () => {
     console.log(name);
     const fetch = async () => {
       const result = await axios.post(
-        `https://space-t99y.onrender.com/${name}`
+        `https://space-t99y.onrender.com/planet/${name}`
       );
       setData(result?.data[0]);
       console.log(data);
