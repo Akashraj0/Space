@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
-import Jupiter from "../../assets/planet_images/Jupiter.png";
-import Mars from "../../assets/planet_images/Mars.png";
-import Mercury from "../../assets/planet_images/Mercury.png";
-import Moon from "../../assets/planet_images/Moon.png";
-import Neptun from "../../assets/planet_images/Neptun.png";
-import Saturn from "../../assets/planet_images/Saturn.png";
-import Sun from "../../assets/planet_images/Sun.png";
-import Uranus from "../../assets/planet_images/Uranus.png";
-import Venus from "../../assets/planet_images/Venus.png";
+import Jupiter from "/assets/planet_images/Jupiter.png";
+import Mars from "/assets/planet_images/Mars.png";
+import Mercury from "/assets/planet_images/Mercury.png";
+import Moon from "/assets/planet_images/Moon.png";
+import Neptun from "/assets/planet_images/Neptun.png";
+import Saturn from "/assets/planet_images/Saturn.png";
+import Sun from "/assets/planet_images/Sun.png";
+import Uranus from "/assets/planet_images/Uranus.png";
+import Venus from "/assets/planet_images/Venus.png";
 import "./index.scss";
 export const Discover = () => {
   const navigate = useNavigate();
@@ -23,7 +23,7 @@ export const Discover = () => {
     { name: "Uranus", image: Uranus },
   ];
 
-  const handleClick = (name) => {
+  const handleClick = (name, image) => {
     navigate("/planet", { state: { name } });
   };
   return (
