@@ -1,0 +1,42 @@
+.Timeline {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+
+  ul {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+
+    .ul-1 {
+      width: 20%;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      color: black;
+      margin: auto;
+      width: 50%;
+      padding: 2rem;
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Timeline {
+    ul {
+      .ul-1 {
+        width: 40%;
+      }
+
+      p {
+        width: 90%;
+      }
+    }
+  }
+}

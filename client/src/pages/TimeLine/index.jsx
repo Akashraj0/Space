@@ -1,55 +1,22 @@
 import PropTypes from "prop-types";
-// Import our custom CSS
-// import "../scss/styles.scss";
+import "./index.scss";
 
 function Timeline({ time }) {
   return (
-    <div
-      style={{
-        justifyContent: "flex-start",
-        alignItems: "flex-start",
-        margin: "auto",
-      }}
-    >
+    <div className="Timeline">
       <div>
         <div>
           <div>
             <ul>
               {time?.map((times) => (
                 <div key={time}>
-                  <ul
-                    style={{
-                      justifyContent: "center",
-                      textAlign: "center",
-                      listStyle: "none",
-                      padding: "20px",
-                    }}
-                  >
+                  <ul className="ul">
                     <li>
                       <div>
-                        <div
-                          className="event-date badge bg-info"
-                          style={{
-                            width: "20%",
-                            padding: "1rem",
-                            marginTop: "2rem",
-                            color: "white",
-                            textAlign: "center",
-                          }}
-                        >
+                        <div className="event-date badge bg-info ul-1">
                           {times.date}
                         </div>
-                        <p
-                          style={{
-                            color: "black",
-                            margin: "auto",
-                            width: "50%",
-                            padding: "2rem",
-                            textAlign: "justify",
-                          }}
-                        >
-                          {times.para}
-                        </p>
+                        <p>{times.para}</p>
                       </div>
                     </li>
                   </ul>

@@ -2,7 +2,7 @@ import "./index.scss";
 const About = () => {
   return (
     <div className="Layout--Box2">
-      <h1 style={{ fontSize: "60px" }}>About Us</h1>
+      <h1>About Us</h1>
       <div className="Box2">
         <div>
           <p>
@@ -25,10 +25,8 @@ const About = () => {
             pristine beauty of space and our home planet, we are actively
             engaged in sustainable initiatives.
           </p>
-          <h1 style={{ margin: "4.5rem" }}>
-            The Right Mix Of Escapade And Education
-          </h1>
-          <p>
+          <h1>The Right Mix Of Escapade And Education</h1>
+          <p style={{ marginBottom: "30px" }}>
             Your cosmic odyssey with Solar Safari leads you into a new era of
             human exploration. You will also acquire expertise that transcends
             boundaries, breaks barriers, and unlocks the mysteries of the

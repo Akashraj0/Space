@@ -90,7 +90,6 @@ const Travel = () => {
                   onChange={formik.handleChange}
                   name="depature"
                   value={formik.values.depature}
-                  style={{ width: "100%", padding: "8px" }}
                 >
                   <option>--Depature Destination--</option>
                   <option value="Earth">Earth</option>
@@ -104,7 +103,6 @@ const Travel = () => {
                   onChange={formik.handleChange}
                   name="arrival"
                   value={formik.values.arrival}
-                  style={{ width: "100%", padding: "8px" }}
                 >
                   <option>--Arrival Destination--</option>
                   <option value="sun">Sun</option>

@@ -23,7 +23,7 @@ export const Discover = () => {
     { name: "Uranus", image: Uranus },
   ];
 
-  const handleClick = (name, image) => {
+  const handleClick = (name) => {
     navigate("/planet", { state: { name } });
   };
   return (

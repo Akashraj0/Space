@@ -12,19 +12,13 @@ const Footer = () => {
         <div className="footer-comment">
           <h6>GET IN TOUCH </h6>
           <h6>Have a question?</h6>
-          <p style={{ fontSize: "12px" }}>
+          <p>
             Connect with a Safari expert to get started. Whether it is a
             hyperluminal query (or) a query related to the multiverse (or)
             careers at Solar Safari, we are here to help.
-            <div style={{ fontSize: "12px" }}>
-              {" "}
-              Headquarters : Esc Avenue, Solar Safari Inc., The Moon.
-            </div>
-            <div style={{ fontSize: "12px" }}> Contact : +MO 1023456789</div>
-            <div style={{ fontSize: "12px" }}>
-              {" "}
-              e-Mail : info@solarsafari.com
-            </div>
+            <div>Headquarters : Esc Avenue, Solar Safari Inc., The Moon.</div>
+            <div> Contact : +MO 1023456789</div>
+            <div>e-Mail : info@solarsafari.com</div>
           </p>
         </div>
         <div className="Contact--hyper">

@@ -41,11 +41,20 @@
             background-color: transparent;
             width: 50%;
             float: left;
-            padding-right: 10px;
+            // padding-right: 10px;
           }
 
           input,
           textarea {
+            background-color: transparent;
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+
+          select {
             background-color: transparent;
             width: 100%;
             padding: 8px;
@@ -89,21 +98,17 @@
       }
     }
     .contact-form {
-      width: 70%;
+      width: 80%;
       display: block;
       margin: auto;
       form {
         ul {
           li {
-            input,
-            textarea {
+            &.half {
               background-color: transparent;
-              margin-left: 9px;
-              width: 93%;
-              padding: 4px;
-              font-size: 16px;
-              border: 1px solid #ccc;
-              box-sizing: border-box;
+              width: 100%;
+              float: left;
+              padding-right: 10px;
             }
           }
         }
